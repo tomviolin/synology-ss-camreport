@@ -29,4 +29,14 @@ clone directly to `/var/services/web/camreport/` The rest of the instructions wi
 ## Running
 - `ssh` into the server.
 - `cd /var/services/web/`
-- `python3 
+- `./synology-ss.py makehtml`
+
+At this point, if everything worked, there will be a `out.html` file created in that same directory. Also created will be 
+snapshot files for each camera, named `IDnn.png` where `nn` is the ID number assigned by Surveillance Station to each camera.
+
+## Something missing?
+Pull requests please.
+
+Tom Hansen
+tomh@uwm.edu
+created 01/31/2025
